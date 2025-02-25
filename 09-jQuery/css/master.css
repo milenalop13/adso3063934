@@ -94,7 +94,7 @@ main {
             
         }
         button {
-            background-color: green;
+            background-color: rgb(30, 170, 30);
             border-radius: 0 0.4rem 0.4rem 0;
             border: 1px solid #3d8d7a;
             cursor: pointer;
@@ -105,5 +105,18 @@ main {
             color: white;
             width: 50px;
         }
+    }
+    button#reset {
+        background-color: #db1d1d;
+        border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+        border: 1px solid #f46060;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        color: rgb(245, 244, 244);
+        width: 90px;
+        margin: 0.4rem auto;
     }
 }
